@@ -22,10 +22,10 @@
             <p>Voici un formulaire de contact si vous souhaitez obtenir des informations qui ne sont pas présentes sur
                 mon
                 portfolio. Vous avez aussi la possibilité de me contacter via différents réseau sociaux tels que <a
-                    class="link-offset-2 link-underline link-underline-opacity-0" href="">Instagram</a>/ <a
-                    class="link-offset-2 link-underline link-underline-opacity-0" href="">Facebook</a>/ <a
-                    class="link-offset-2 link-underline link-underline-opacity-0" href="">LinkedIn</a>/ <a
-                    class="link-offset-2 link-underline link-underline-opacity-0" href="">Ghitub</a>.</p>
+                    class="link-offset-2 link-underline link-underline-opacity-0" href="https://www.instagram.com/gedeon_diam?igsh=MXRxcWtoa2Fzdm4yMA%3D%3D&utm_source=qr">Instagram</a>/ <a
+                    class="link-offset-2 link-underline link-underline-opacity-0" href="https://www.facebook.com/share/MTKUhHiMZBiS8McU/?mibextid=LQQJ4d">Facebook</a>/ <a
+                    class="link-offset-2 link-underline link-underline-opacity-0" href="https://www.linkedin.com/in/g%C3%A9d%C3%A9on-diamokina-152bb6295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">LinkedIn</a>/ <a
+                    class="link-offset-2 link-underline link-underline-opacity-0" href="https://github.com/GedeonDiam">Ghitub</a>.</p>
         </div>
     </div>
 

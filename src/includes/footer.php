@@ -13,10 +13,10 @@
             </style>
 
             <div class="d-flex justify-content-center fs-3 mt-3 mb-3 pb-3">
-                <a href=""><i class="bi bi-instagram  text-white"></i></a>
-                <a href=""><i class="bi bi-facebook ms-5  text-white"></i></a>
-                <a href=""><i class="bi bi-linkedin ms-5 text-white "></i></a>
-                <a href=""><i class="bi bi-github ms-5 text-white"></i></i></a>
+                <a href="https://www.instagram.com/gedeon_diam?igsh=MXRxcWtoa2Fzdm4yMA%3D%3D&utm_source=qr"><i class="bi bi-instagram  text-white"></i></a>
+                <a href="https://www.facebook.com/share/MTKUhHiMZBiS8McU/?mibextid=LQQJ4d"><i class="bi bi-facebook ms-5  text-white"></i></a>
+                <a href="https://www.linkedin.com/in/g%C3%A9d%C3%A9on-diamokina-152bb6295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="bi bi-linkedin ms-5 text-white "></i></a>
+                <a href="https://github.com/GedeonDiam"><i class="bi bi-github ms-5 text-white"></i></i></a>
             </div>
             <div class="vertical-line"></div>
 
