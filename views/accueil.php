@@ -1,4 +1,4 @@
-<div class="accueil-background pt-5 pb-5">
+<div class="accueil-background pt-5 pb-5" style="height : 100vh">
     <div class="container ">
         <div class="row">
             <div class="col-7 pt-5">

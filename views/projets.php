@@ -1,3 +1,6 @@
+<?php
+    $projets = $unController->getProjets();
+?>
 <div class="text-center">
     <div class="container pb-5" style="background-color: #7F82BB">
     <h1 class="mt-5" style=" font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">Mes Projets</h1>
@@ -12,46 +15,22 @@
 
     <div class="container mt-5">
         <div class="row">
+            <?php foreach ($projets as $projet) { 
+            echo '
             <div class="col-4">
                 <div class="card card-custom mb-4" style="width: 20rem; border-radius:10px">
-                    <img src="./src/asset/images/qcm.png" style="border-radius:10px ; width: auto">
+                    <img src="'.$projet['image_projet'].'" style="border-radius:10px ; width: auto">
                     <div class="card-body"
                         style="background-color: #0F0F0F; margin-top: 100px;  border-bottom-left-radius:10px;  border-bottom-right-radius:10px">
-                        <h5 class="card-title" style="color:#419BCD">Projet QCM</h5>
-                        <p class="card-text" style="font-size: small; color:azure">C'est un chatroom pour discuter avec
-                            n'importe qui sur le web. Le concept est de rentrée son pseudo et de commencer à s'échanger
-                            des messages. Ce chatroom peut contenir un nombre illimité d'utilisateurs.</p>
-                        <a href="https://github.com/GedeonDiam/QCM-TP.git" class="code btn btn-outline-info "><span>Voir
+                        <h5 class="card-title" style="color:#419BCD">'.$projet["nom"].'</h5>
+                        <p class="card-text" style="font-size: small; color:azure">'.$projet["description"].'</p>
+                        <a href="'.$projet['lien_github'].'" class="code btn btn-outline-info "><span>Voir
                                 le code</span></a>
                     </div>
                 </div>
-            </div>
-            <div class="col-4">
-                <div class="card card-custom mb-4" style="width: 20rem; border-radius:10px">
-                    <img src="./src/asset/images/chat.png" style="border-radius:10px; width: auto; ">
-                    <div class="card-body"
-                        style="background-color: #0F0F0F; margin-top: 70px;  border-bottom-left-radius:10px;  border-bottom-right-radius:10px">
-                        <h5 class="card-title" style="color:#419BCD">Projet ChatBox</h5>
-                        <p class="card-text" style="font-size: small; color:azure">C'est un chatroom pour discuter avec
-                            n'importe qui sur le web. Le concept est de rentrée son pseudo et de commencer à s'échanger
-                            des messages. Ce chatroom peut contenir un nombre illimité d'utilisateurs.</p>
-                        <a href="https://github.com/GedeonDiam/Chatbox.git" class="code btn btn-outline-info ">Voir le code</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-4">
-                <div class="card card-custom mb-4" style="width: 20rem; border-radius:10px">
-                    <img src="./src/asset/images/qcm.png" style="border-radius:10px" alt="Image cap">
-                    <div class="card-body"
-                        style="background-color: #0F0F0F; margin-top: 100px;  border-bottom-left-radius:10px;  border-bottom-right-radius:10px">
-                        <h5 class="card-title" style="color:#419BCD">Projet QCM</h5>
-                        <p class="card-text" style="font-size: small; color:azure">C'est un chatroom pour discuter avec
-                            n'importe qui sur le web. Le concept est de rentrée son pseudo et de commencer à s'échanger
-                            des messages. Ce chatroom peut contenir un nombre illimité d'utilisateurs.</p>
-                        <a href="#" class="code btn btn-outline-info ">Voir le code</a>
-                    </div>
-                </div>
-            </div>
+            </div>';
+            }
+            ?>
         </div>
 
     </div>
